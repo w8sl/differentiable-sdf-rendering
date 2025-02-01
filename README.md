@@ -45,7 +45,7 @@ The code further depends on a few common Python packages (`numpy`, `matplotlib`,
 The following command installs all the required dependencies:
 
 ```bash
-pip install mitsuba fastsweep numpy tqdm matplotlib
+pip install -r requiremets.txt
 ```
 Both the `mitsuba` and `fastsweep` module might receive updates and bug fixes. You can install the latest versions of these modules using `pip install -U mitsuba fastsweep`.
 
